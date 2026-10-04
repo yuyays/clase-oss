@@ -1,0 +1,15 @@
+:{$PORT} {
+  root * /srv
+  encode gzip
+
+  route {
+    handle_path /api/* {
+      reverse_proxy {$API_UPSTREAM} {
+        header_up x-beta-key {$BETA_ACCESS_KEY}
+      }
+    }
+
+    try_files {path} /index.html
+    file_server
+  }
+}

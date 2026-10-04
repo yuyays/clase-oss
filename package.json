@@ -1,0 +1,33 @@
+{
+  "name": "clase",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "packageManager": "pnpm@10.28.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:all": "bash scripts/dev-all.sh",
+    "lint": "oxlint .",
+    "typecheck": "pnpm -r typecheck",
+    "format": "oxfmt --check",
+    "format:write": "oxfmt --write",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "test:api": "bash scripts/api-workflow.sh",
+    "test:parse": "bash scripts/parse-workflow.sh"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "drizzle-kit": "^0.31.11",
+    "oxfmt": "^0.71.0",
+    "oxlint": "^1.86.0",
+    "oxlint-tsgolint": "^7.0.2003",
+    "typescript": "^7.0.2"
+  }
+}

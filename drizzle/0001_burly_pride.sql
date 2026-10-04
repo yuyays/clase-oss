@@ -1,0 +1,1 @@
+ALTER TABLE "parsing_jobs" ADD COLUMN "metadata" jsonb;

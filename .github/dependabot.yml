@@ -1,0 +1,17 @@
+version: 2
+updates:
+  # The root pnpm lockfile covers every workspace package.
+  # Dependabot handles security fixes and weekly version updates.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      routine-updates:
+        applies-to: version-updates
+        patterns:
+          - '*'
+        update-types:
+          - minor
+          - patch

@@ -1,0 +1,31 @@
+{
+  "name": "@clase/worker",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "bash ../../scripts/dev-node.sh index",
+    "dev:pretty": "LOG_PRETTY=true bash ../../scripts/dev-node.sh index | pino-pretty -c",
+    "llm:preview": "pnpm build && node dist/scripts/llm-preview.js",
+    "lint": "oxlint src scripts",
+    "start": "node dist/src/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@clase/shared": "workspace:*",
+    "bullmq": "^6.3.11",
+    "dotenv": "^18.0.5",
+    "drizzle-orm": "^0.45.3",
+    "ioredis": "^6.0.0",
+    "mammoth": "^1.13.0",
+    "pdf-parse": "^2.4.5",
+    "pino": "^10.4.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "@types/pdf-parse": "^1.1.5",
+    "pino-pretty": "^13.1.3"
+  }
+}

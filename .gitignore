@@ -1,0 +1,15 @@
+node_modules
+.DS_Store
+dist
+build
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.log
+logs.*.json
+pnpm-lock.yaml
+coverage
+AGENTS.md
+fixtures
+.config/
