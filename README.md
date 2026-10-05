@@ -1,5 +1,11 @@
 # Clase LMS
 
+## Demo
+
+Try the hosted demo: https://web-production-176df.up.railway.app/
+
+Watch the demo video: https://canva.link/egumqag1akqqkxj
+
 ## Local development
 
 ### Prerequisites
