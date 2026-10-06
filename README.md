@@ -11,7 +11,7 @@ Watch the demo video: https://canva.link/egumqag1akqqkxj
 ### Prerequisites
 
 - Node.js 24
-- pnpm 10
+- pnpm 11 (11.28.2 is pinned in `package.json`)
 - Redis (for workers)
 
 ### Install
