@@ -47,4 +47,6 @@ pnpm install
 
 ## License
 
-Clase is licensed under the [MIT License](LICENSE).
+Clase is licensed under the [MIT License](LICENSE). The bundled Noto Sans JP
+and Noto Serif JP fonts retain the
+[SIL Open Font License 1.1](apps/web/public/licenses/OFL-1.1.txt).
