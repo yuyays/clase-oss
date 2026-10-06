@@ -39,7 +39,6 @@ pnpm install
 ### Notes
 
 - API and worker need Redis running at `REDIS_URL`.
-- Set `LOG_PRETTY=true` or use `dev:pretty` for colored logs.
 - The hosted app has no sign-in or shared library. Each upload belongs to the
   browser session that created it and expires after 24 hours. Download the
   edited assessment before then.
