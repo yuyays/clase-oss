@@ -45,3 +45,7 @@ pnpm install
   edited assessment before then.
 - The API uses Redis for daily anonymous usage limits. The worker removes
   expired database records and uploaded files every hour.
+
+## License
+
+Clase is licensed under the [MIT License](LICENSE).
