@@ -21,8 +21,8 @@
     "seed": "pnpm build && node dist/db/seed.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.117.2",
-    "dotenv": "^18.0.5",
+    "@supabase/supabase-js": "^2.117.3",
+    "dotenv": "^18.0.6",
     "drizzle-orm": "^0.45.3",
     "drizzle-zod": "^0.8.3",
     "pg": "^8.23.1",
