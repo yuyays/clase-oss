@@ -13,14 +13,14 @@
   },
   "dependencies": {
     "@clase/shared": "workspace:*",
-    "bullmq": "^6.3.15",
+    "bullmq": "^6.5.1",
     "cors": "^2.8.6",
-    "dotenv": "^18.0.8",
+    "dotenv": "^18.0.9",
     "drizzle-orm": "^0.45.4",
     "express": "^5.3.0",
     "helmet": "^8.3.0",
     "ioredis": "^6.0.0",
-    "multer": "^2.4.0",
+    "multer": "^2.5.0",
     "pino": "^10.4.0",
     "pino-http": "^11.0.0"
   },
@@ -28,7 +28,7 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/multer": "^2.3.0",
-    "@types/node": "^26.6.5",
+    "@types/node": "^26.6.6",
     "pino-pretty": "^13.2.0"
   }
 }
